@@ -3,10 +3,9 @@ import 'dart:typed_data';
 import 'dart:ui';
 
 import 'package:flutter_attendance/core/ml/recognition_embedding.dart';
+import 'package:flutter_attendance/data/datasources/auth_local_datasource.dart';
 import 'package:tflite_flutter/tflite_flutter.dart';
 import 'package:image/image.dart' as img;
-
-import '../../data/datasources/auth_local_datasource.dart';
 
 class Recognizer {
   late Interpreter interpreter;

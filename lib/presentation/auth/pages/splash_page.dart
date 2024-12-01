@@ -28,13 +28,13 @@ class _SplashPageState extends State<SplashPage> {
             if (snapshot.data == true) {
               // Jika sudah login, navigasi ke MainPage
               Future.delayed(
-                const Duration(seconds: 2),
+                const Duration(seconds: 4),
                 () => context.pushReplacement(const MainPage()),
               );
             } else {
               // Jika belum login, navigasi ke Login
               Future.delayed(
-                const Duration(seconds: 2),
+                const Duration(seconds: 4),
                 () => context.pushReplacement(const Login()),
               );
             }
